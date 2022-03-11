@@ -1,0 +1,77 @@
+$boder-radius-btn: 20px;
+$width-btn: 90px;
+$height-btn: 28px;
+
+.form {
+    background: #F4F3F3;
+    border: 2px solid #BDBDBD;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 30px;
+
+    h2 {
+        text-align: center;
+        margin-top: -10px;
+        margin-bottom: 20px;
+        color: #301B52;
+        font-size: 28px;
+        font-family: $font-text;
+    }
+
+    input {
+        border: 1px solid #828282;
+        border-radius: 20px;
+        width: 240px;
+        height: 40px;
+        padding-left: 17px;
+        margin-bottom: 7px;
+    }
+
+    a {
+        color: #301B52;
+        text-decoration: none;
+        font-family: $font-text;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+
+    .login {
+        width: $width-btn;
+        height: $height-btn;
+        background: #301B52;
+        border: none;
+        border-radius: 20px;
+        color: $color-text;
+        font-family: $font-text;
+        cursor: pointer;
+
+        &:hover {
+            background: #DB0916;
+            transition: 500ms;
+        }
+    }
+
+    .signup {
+        width: $width-btn;
+        height: $height-btn;
+        background: #DB0916;
+        border: none;
+        border-radius: 20px;
+        color: $color-text;
+        font-family: $font-text;
+        cursor: pointer;
+
+        &:hover {
+            background: #301B52;
+            transition: 500ms;
+        }
+    }
+}

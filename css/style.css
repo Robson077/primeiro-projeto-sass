@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #301B52;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 200px;
+  column-gap: 250px;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.conteudo h2 {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+}
+.conteudo p {
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+.form {
+  background: #F4F3F3;
+  border: 2px solid #BDBDBD;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 30px;
+}
+.form h2 {
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  color: #301B52;
+  font-size: 28px;
+  font-family: "Roboto", sans-serif;
+}
+.form input {
+  border: 1px solid #828282;
+  border-radius: 20px;
+  width: 240px;
+  height: 40px;
+  padding-left: 17px;
+  margin-bottom: 7px;
+}
+.form a {
+  color: #301B52;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
+.btns .login {
+  width: 90px;
+  height: 28px;
+  background: #301B52;
+  border: none;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+.btns .login:hover {
+  background: #DB0916;
+  transition: 500ms;
+}
+.btns .signup {
+  width: 90px;
+  height: 28px;
+  background: #DB0916;
+  border: none;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+.btns .signup:hover {
+  background: #301B52;
+  transition: 500ms;
+}
+
+/*# sourceMappingURL=style.css.map */
